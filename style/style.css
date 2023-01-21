@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+padding: 0;
+margin: 0; }
+
+
+/*BODY*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: #DFF3E3;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-link.active{
+    color: black;
+}
+
+.nav-item .nav-link:hover{
+    color: #86A02A;
+}
+
+.dropdown-menu{
+    background-color: #DFF3E3;
+}
+
+
+.dropdown-item:hover{
+    color: black;
+    background-color: #86A02A;
+}
+
+.navbar-toggler-icon {
+    background-color: #54829B;
+    color: white;
+}
+
+
+/*CAROUSEL*/
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+
+.cardcarusel{
+    margin-top: 15%;
+}
+
+.card-img-overlay{
+    margin-top: 25%;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #54829B;
+}
