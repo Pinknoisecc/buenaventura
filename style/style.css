@@ -12,6 +12,26 @@ body{
 }
 
 
+/*BOTONWHATSAPP*/
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+}
+
 /*NAVBAR*/
 
 .navbar{
@@ -76,9 +96,18 @@ body{
     font-size: 200%;
 }
 
-.boton{
+.botoncarrusel{
     margin-left: 40%;
+    margin-right:40% ;
     margin-top: 3%;
+}
+
+
+/*CARDS*/
+
+.botoncard{
+    display: flex;
+    justify-content: center;
 }
 
 /*FOOTER*/
