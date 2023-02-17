@@ -158,9 +158,32 @@ footer{
     }
 }
 
+
+@media (max-width: 992px) {
+    .segfooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .segfooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 768px) {
     .carousel-inner{
         margin-top: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .segfooter{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -170,4 +193,15 @@ footer{
     }
 }
 
+/*DIVISOR*/
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 200px;
+    border-radius: 20px;
+    border: 5;
+    border-top: 15px solid rgba(0, 0, 0, 0.1);
+    background-color: rgb(68, 135, 189);
+}
 
