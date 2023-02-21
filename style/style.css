@@ -149,7 +149,6 @@ footer{
     background-color: #DFF3E3;
 }
 
-
 /*MEDIAQUERY*/
 
 @media (max-width: 992px) {
@@ -158,35 +157,35 @@ footer{
     }
 }
 
-
+/*
 @media (max-width: 992px) {
     .segfooter{
         display: flex;
         flex-direction: column;
     }
-}
+}*/
 
-
+/*
 @media (max-width: 1200px) {
     .segfooter{
         display: flex;
         flex-direction: column;
     }
-}
+}*/
 
 @media (max-width: 768px) {
     .carousel-inner{
         margin-top: 15%;
     }
 }
-
+/*
 @media (max-width: 768px) {
     .segfooter{
         display: flex;
         flex-direction: column;
     }
 }
-
+*/
 @media (max-width: 576px) {
     .carousel-inner{
         margin-top: 25%;
