@@ -143,6 +143,13 @@ body{
     margin-bottom: 2%;
 }
 
+
+/*NOSOTROS*/
+
+.nosotros1{
+    margin-top: 10%;
+}
+
 /*FOOTER*/
 
 footer{
@@ -151,46 +158,54 @@ footer{
 
 /*MEDIAQUERY*/
 
+
+/*CARRUSEL*/
 @media (max-width: 992px) {
     .carousel-inner{
         margin-top: 15%;
     }
 }
 
-/*
-@media (max-width: 992px) {
-    .segfooter{
-        display: flex;
-        flex-direction: column;
-    }
-}*/
-
-/*
-@media (max-width: 1200px) {
-    .segfooter{
-        display: flex;
-        flex-direction: column;
-    }
-}*/
 
 @media (max-width: 768px) {
     .carousel-inner{
         margin-top: 15%;
     }
 }
-/*
-@media (max-width: 768px) {
-    .segfooter{
-        display: flex;
-        flex-direction: column;
-    }
-}
-*/
+
+
+
 @media (max-width: 576px) {
     .carousel-inner{
         margin-top: 25%;
     }
 }
+
+
+
+/*CARDS SERVICIOS*/
+@media (max-width: 992px) {
+    .cardservice{
+        margin-top: 7%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cardservice{
+        margin-top: 7%;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .cardservice{
+        margin-top: 10%;
+    }
+}
+
+
 
 /*DIVISOR*/
 
