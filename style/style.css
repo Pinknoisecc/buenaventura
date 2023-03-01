@@ -206,6 +206,26 @@ footer{
 }
 
 
+/*CARDS NOSOTROS*/
+
+@media (max-width: 1400px) {
+    .cardus{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cardus{
+        margin-top: 7%;
+    }
+}
+
+@media (max-width: 992px) {
+    .cardus{
+        margin-top: 5%;
+    }
+}
+
 
 /*DIVISOR*/
 
