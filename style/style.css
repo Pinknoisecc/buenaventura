@@ -216,13 +216,19 @@ footer{
 
 @media (max-width: 1200px) {
     .cardus{
-        margin-top: 7%;
+        margin-top: 13%;
     }
 }
 
 @media (max-width: 992px) {
     .cardus{
-        margin-top: 5%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardus{
+        margin-top: 1%;
     }
 }
 
