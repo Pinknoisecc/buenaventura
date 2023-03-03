@@ -109,8 +109,8 @@ body{
 
 .botoncarrusel{
     margin-left: 30%;
-    margin-right:30% ;
-    margin-top: 3%;
+    margin-right:30%;
+    background-color: #54829b;
 }
 
 
@@ -119,12 +119,13 @@ body{
 .botoncard{
     display: flex;
     justify-content: center;
+    background-color: #54829b;
 }
 
 
 .cardinfo{
     border-radius: 20px;
-    background-color: #DFF3E3;
+    background-color: white;
     box-shadow: 0px 4px 11px #161616;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -133,9 +134,25 @@ body{
 
 /*SERVICIOS*/
 
+
+.colorservice1{
+    background-color: #DFF3E3;
+}
+
+
 .cardservice{
-    margin-top: 6%;
+    margin-top: 3%;
     border: 0px;
+}
+
+
+.colorinternoservice{
+    background-color: #DFF3E3;
+}
+
+
+.ajustevisa{
+    margin-top: 40%;
 }
 
 .mapa{
@@ -149,6 +166,17 @@ body{
 .nosotros1{
     margin-top: 10%;
 }
+
+
+.nos1{
+    margin-top: 7%;
+}
+
+
+.nos2{
+    margin-top: 25%;
+}
+
 
 /*FOOTER*/
 
@@ -210,27 +238,37 @@ footer{
 
 @media (max-width: 1400px) {
     .cardus{
-        margin-top: 10%;
+        margin-top: 3%;
     }
 }
 
 @media (max-width: 1200px) {
     .cardus{
-        margin-top: 13%;
+        margin-top: 4%;
     }
 }
 
 @media (max-width: 992px) {
     .cardus{
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
 
 @media (max-width: 768px) {
     .cardus{
-        margin-top: 1%;
+        margin-top: 4%;
     }
 }
+
+
+@media (max-width: 576px) {
+    .cardus{
+        margin-top: 4%;
+    }
+}
+
+
+
 
 
 /*DIVISOR*/

@@ -16,7 +16,7 @@
 
 
     <!--NAVBAR-->
-    
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
@@ -37,6 +37,7 @@
                             <li><a class="dropdown-item" href="./secciones/servicios.html#visas">Trámites de visa</a></li>
                             <li><a class="dropdown-item" href="./secciones/servicios.html#viajes">Viajes(Paquete turístico)</a></li>
                             <li><a class="dropdown-item" href="./secciones/servicios.html#chile">Chile</a></li>
+                            <li><a class="dropdown-item" href="./secciones/servicios.html#comentarios">Comentarios</a></li>
                         </ul>
                         </li>
                     <li class="nav-item">
@@ -61,12 +62,16 @@
         <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
             <!-- Diapositivas -->
             <div class="carousel-inner">
-                <!--CARD 1-->
+
+
+                <!--VISAS-->
+
+
                 <div class="carousel-item active ">
                     <div class="card cardcarrusel text-black m-width-100">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card-body mt-5">
+                                <div class="card-body mt-4">
                                     <h1 class="card-title"><strong>VISA</strong></h1>
                                     <hr/>
                                     <p class="card-text infocarrusel">Todos los trámites de visa en un solo lugar, te asesoramos con todo lo que necesites, déjalo en nuestras manos.</p>
@@ -74,17 +79,21 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="./imágenes/schengen_border_control 75 mas pequeña.jpg" alt="..." width="100%">
+                                <img src="./imágenes/passport.jpg" alt="..." width="100%">
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--CARD 2-->
+
+
+                <!--VIAJES-->
+
+
                 <div class="carousel-item">
                     <div class="card cardcarrusel text-black m-width-100">
                         <div class="row g-0">
                             <div class="col-md-6">
-                                <div class="card-body mt-5">
+                                <div class="card-body mt-4">
                                     <h1 class="card-title"><strong>VIAJES</strong></h1>
                                     <hr/>
                                     <p class="card-text infocarrusel">Te ofrecemos los mejores paquete turísticos con el mejor precio y  además con seguro de viaje incluido, cotiza con nosotros.</p>
@@ -92,12 +101,16 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="./imágenes/schengen_border_control 75 mas pequeña.jpg" alt="..." width="100%">
+                                <img src="./imágenes/viaje.jpg" alt="..." width="100%">
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--CARD 3-->
+
+
+                <!--CHILE-->
+
+
                 <div class="carousel-item">
                     <div class="card cardcarrusel text-black m-width-100">
                         <div class="row g-0">
@@ -110,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="./imágenes/schengen_border_control 75 mas pequeña.jpg" alt="..." width="100%">
+                                <img src="./imágenes/patagonia.jpg" alt="..." width="100%">
                             </div>
                         </div>
                         </div>
@@ -135,29 +148,40 @@
 <div class="container-fluid">
     <div class="row justify-content-center my-5">
     <div class="card mx-5 cardinfo" style="width: 18rem;">
-        <img src="./iconos/seguridad.png" class="card-img-top" alt="...">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-lock" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+            <circle cx="12" cy="11" r="1" />
+            <line x1="12" y1="12" x2="12" y2="14.5" />
+        </svg>
         <div class="card-body">
             <h4 class="card-title text-center"><strong>Seguridad</strong></h4>
             <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-            <a href="#" class="btn btn-primary botoncard">Ir a algún lugar</a>
         </div>
     </div>
 
     <div class="card mx-5 cardinfo" style="width: 18rem;">
-        <img src="./iconos/confianza.png" class="card-img-top" alt="...">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heartbeat" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M19.5 13.572l-7.5 7.428l-2.896 -2.868m-6.117 -8.104a5 5 0 0 1 9.013 -3.022a5 5 0 1 1 7.5 6.572" />
+            <path d="M3 13h2l2 3l2 -6l1 3h3" />
+        </svg>
         <div class="card-body">
             <h4 class="card-title text-center"><strong>Confianza</strong></h4>
             <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-            <a href="#" class="btn btn-primary botoncard">Ir a algún lugar</a>
         </div>
     </div>
 
     <div class="card mx-5 cardinfo" style="width: 18rem;">
-        <img src="./iconos/compromiso.png" class="card-img-top" alt="...">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-award" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="9" r="6" />
+            <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />
+            <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" />
+        </svg>
         <div class="card-body">
             <h4 class="card-title text-center"><strong>Compromiso</strong></h4>
             <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-            <a href="#" class="btn btn-primary botoncard">Ir a algún lugar</a>
         </div>
     </div>
     </div>
@@ -176,28 +200,25 @@
     <!-- Section: Social media -->
         <section class="mb-4">
             <!-- Facebook -->
-            <h5 class="text-dark font-weight-bold"> <strong> REDES SOCIALES</strong> </h5>
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="http://facebook.com"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><img src="./iconos/iconoFacebook_20x20.png" alt="Instagram"></a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
 
             <!-- Instagram -->
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="http://instagram.com/"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><img src="./iconos/iconoInstagram_20x20.png" alt="Instagram"></a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
 
 
         </section>
         </div>
-    <!-- Section: Social media -->
-    <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center text-dark p-3" style="background-color: #54829b;">
             © 2023 Buenaventura S.P.A
             <p class="small derechos">&copy;  ACC INNOVATIONS | Todos los derechos reservados</p>
 
