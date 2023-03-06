@@ -169,12 +169,12 @@ body{
 
 
 .nos1{
-    margin-top: 7%;
+    margin-top: 8%;
 }
 
 
 .nos2{
-    margin-top: 25%;
+    margin-top: 27%;
 }
 
 
@@ -210,6 +210,33 @@ footer{
 }
 
 
+/*AJUSTE INFO VISA*/
+@media (max-width: 1200px) {
+    .ajustevisa{
+        margin-top: 55%;
+    }
+}
+
+@media (max-width: 992px) {
+    .ajustevisa{
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ajustevisa{
+        margin-top: 0%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .ajustevisa{
+        margin-top: 0%;
+    }
+}
+
+
 
 /*CARDS SERVICIOS*/
 @media (max-width: 992px) {
@@ -236,34 +263,48 @@ footer{
 
 /*CARDS NOSOTROS*/
 
-@media (max-width: 1400px) {
-    .cardus{
-        margin-top: 3%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .cardus{
-        margin-top: 4%;
-    }
-}
-
-@media (max-width: 992px) {
-    .cardus{
+@media (max-width: 768px) {
+    .nos2{
         margin-top: 5%;
     }
 }
 
-@media (max-width: 768px) {
-    .cardus{
-        margin-top: 4%;
+
+@media (max-width: 1200px) {
+    .mqnos1{
+        margin-top: 6%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mqnos2{
+        margin-top: 10%;
     }
 }
 
 
+@media (max-width: 992px) {
+    .mqnos2{
+        margin-top: 45%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .mqnos1{
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mqnos2{
+        margin-top: 0%;
+    }
+}
+
 @media (max-width: 576px) {
-    .cardus{
-        margin-top: 4%;
+    .mqnos2{
+        margin-top: 0%;
     }
 }
 
