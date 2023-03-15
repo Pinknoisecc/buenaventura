@@ -5,6 +5,7 @@ padding: 0;
 margin: 0; }
 
 
+
 /*BODY*/
 
 body{
@@ -34,6 +35,10 @@ body{
 
 
 /*NAVBAR*/
+
+.letralogo{
+    margin-left: 5%;
+}
 
 .navbar{
     background-color: #DFF3E3;
@@ -128,9 +133,13 @@ body{
     box-shadow: 0px 4px 11px #161616;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: .5s ease;
 }
 
-
+.service-box:hover{
+    border: 1px solid blue;
+    transform: scale(1.02);
+}
 /*SERVICIOS*/
 
 
@@ -140,7 +149,12 @@ body{
 
 
 .cardservice{
-    margin-top: 3%;
+    padding-top: 0.3%;
+    border: 0px;
+}
+
+.cardservice2{
+    padding-top: 5%;
     border: 0px;
 }
 
@@ -154,9 +168,8 @@ body{
     margin-top: 40%;
 }
 
-.mapa{
-    margin-top: 8%;
-    margin-bottom: 2%;
+.comentario{
+    padding-top: 8%;
 }
 
 
@@ -177,6 +190,19 @@ body{
 }
 
 
+.infocard{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 11px #161616;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .5s ease;
+}
+
+.transicion:hover{
+    border: 1px solid blue;
+}
+
 /*FOOTER*/
 
 footer{
@@ -186,7 +212,16 @@ footer{
 /*MEDIAQUERY*/
 
 
+/*LOGO*/
+
+@media (max-width: 576px){
+    .letralogo{
+        font-size: 90%;
+    }
+}
+
 /*CARRUSEL*/
+
 @media (max-width: 992px) {
     .carousel-inner{
         margin-top: 15%;
@@ -211,7 +246,7 @@ footer{
 
 @media (min-width: 1400px){
     .card-title{
-        margin-top: 8%;
+        margin-top: 10%;
     }
 }
 
@@ -315,6 +350,14 @@ footer{
 }
 
 
+/*KEYFRAMES*/
+
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
+}
+
 
 
 
@@ -330,3 +373,6 @@ hr {
     background-color: rgb(68, 135, 189);
 }
 
+.map-responsive{
+    margin-top: 10%;
+}
