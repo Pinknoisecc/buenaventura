@@ -33,9 +33,6 @@ body{
     margin-top:13px;
 }
 
-.letraslogo{
-    margin-left: 8px;
-}
 /*NAVBAR*/
 
 .navbar{
@@ -210,15 +207,7 @@ footer{
 /*MEDIAQUERY*/
 
 
-/*LETRAS LOGO*/
-
-
-@media (max-width: 450px) {
-    .logotipo{
-        width: 65px ;
-        height: 25px;
-    }
-}
+/*LOGO*/
 
 
 @media (max-width: 450px) {
@@ -227,20 +216,6 @@ footer{
         height: 20px;
     }
 }
-
-@media (max-width: 450px) {
-    .letraslogo{
-        margin-left: 10px;
-    }
-}
-
-@media (max-width: 360px) {
-    .letraslogo{
-        margin-left: 5px;
-        font-size: 17px;
-    }
-}
-
 
 /*CARRUSEL*/
 
