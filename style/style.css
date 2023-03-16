@@ -207,16 +207,6 @@ footer{
 /*MEDIAQUERY*/
 
 
-/*LOGO*/
-
-
-@media (max-width: 450px) {
-    .logotipo{
-        width: 60px ;
-        height: 20px;
-    }
-}
-
 /*CARRUSEL*/
 
 @media (max-width: 992px) {
