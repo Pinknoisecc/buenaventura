@@ -33,12 +33,10 @@ body{
     margin-top:13px;
 }
 
-
-/*NAVBAR*/
-
-.letralogo{
-    margin-left: 5%;
+.letraslogo{
+    margin-left: 8px;
 }
+/*NAVBAR*/
 
 .navbar{
     background-color: #DFF3E3;
@@ -212,13 +210,37 @@ footer{
 /*MEDIAQUERY*/
 
 
-/*LOGO*/
+/*LETRAS LOGO*/
 
-@media (max-width: 576px){
-    .letralogo{
-        font-size: 90%;
+
+@media (max-width: 450px) {
+    .logotipo{
+        width: 65px ;
+        height: 25px;
     }
 }
+
+
+@media (max-width: 450px) {
+    .logotipo{
+        width: 60px ;
+        height: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .letraslogo{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .letraslogo{
+        margin-left: 5px;
+        font-size: 17px;
+    }
+}
+
 
 /*CARRUSEL*/
 
