@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../logo/Logo Redimensionado.png" alt="" width="120" height="50"></a>
+                <a class="navbar-brand" href="../index.html"><img class="logotipo" src="../logo/Logo Redimensionado.png" alt="" width="120" height="50"><strong class="ms-3 letraslogo">BUENAVENTURA S.P.A</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -138,12 +138,10 @@
 
 <div class="text-center map-responsive animacion3">
     <h2><strong>Nos puedes encontrar acá </strong></h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26769.
-    72574314633!2d-71.20812607594578!3d-32.99808778499469!2m3!1f0!2f0!3f0!3m
-    2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96882a092e425b61%3A0xae8a9792a3c651d8!
-    2zT2xtdcOpLCBWYWxwYXJhw61zbw!5e0!3m2!1ses!2scl!4v1678816933840!5m2!1ses!
-    2scl" width="100%" height="450px" style="border:0;" allowfullscreen=""
-    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe class="my-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209.1178791618027!2d-71.17338224075998!3d-33.00677913310212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96882bd4f0a45787%3A0x63ecdc8d1ed7528e!2sBuenaventura%20S.P.A!5e0!3m2!1ses!2scl!4v1679433668921!5m2!1ses!2scl" 
+    width="100%" height="450px" 
+    allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 
@@ -170,12 +168,13 @@
                 <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
             </svg>
 
+            <div id="google_translate_element" class="google text-black mt-2">Traducir sitio web</div>
 
         </section>
         </div>
 
         <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: #54829b;">
+        <div class="text-center text-dark p-2" style="background-color: #54829b;">
             © 2023 Buenaventura S.P.A
             <p class="small derechos">&copy;  ACC INNOVATIONS | Todos los derechos reservados</p>
 
@@ -198,5 +197,14 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="../js/main.js"></script>
 </script>
+
+<!--Traductor Google-->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: ',es,en,fr,ht,pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+            }
+    </script>
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
