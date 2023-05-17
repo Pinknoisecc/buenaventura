@@ -182,6 +182,7 @@ details summary {
     font-weight: 400; /* peso de la tipografía cuando  no está desplegado */
     list-style: none; /* ocultamos la flecha */
     cursor: pointer; /* cambia el cursor del puntero */
+    margin-left: 30px;
 }
 
 details[open] summary {
@@ -203,6 +204,7 @@ details summary::before {
     top: 1px;
     bottom: 1px;
     right: 330px;
+    left: 1px;
     
 }
 
@@ -357,14 +359,6 @@ footer{
         margin-top: 0%;
     }
 }
-
-
-@media (max-width: 576px) {
-    .ajustevisa{
-        margin-top: 0%;
-    }
-}
-
 
 
 /*CARDS SERVICIOS*/
