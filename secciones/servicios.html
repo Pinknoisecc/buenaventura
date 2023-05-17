@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/059eeb8efb.js" crossorigin="anonymous"></script>
     <title>Servicios</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="logotipo" src="../logo/Logo Redimensionado.png" alt="" width="120" height="50"><strong class="ms-3 letraslogo">BUENAVENTURA S.P.A</strong></a>
+                <a class="navbar-brand" href="../index.html"><img src="../logo/Logo Redimensionado.png" alt="" width="120" height="50"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -101,21 +102,57 @@
 <div class="container-fluid cardservice" id="visa"> <a name="visas"></a>
     <div class="row justify-content-center my-5 ">
     <div class="card mx-5  cardservice colorinternoservice" style="width: 35rem;">
-        <div class="card-body">
-            <h1 class="card-title text-center mb-5 animacion3"><strong>Trámites de visa</strong></h1>
+        <div class="card-body ajustevisaimag">
+            <h1 class="card-title text-center  mb-5 animacion3"><strong>Trámites de visa</strong></h1>
             <img src="../iconos/visa.png" class="card-img-top animacion3" alt="..." width="120" height="420">
         </div>
     </div>
 
     <!--VISA INFO-->
-    <div class="card mx-5 cardservice colorinternoservice" style="width: 22rem;">
+    <div class="card mx-5 cardservice colorinternoservice dropdown" style="width: 22rem;">
         <div class="card-body ajustevisa animacion3">
-            <p class="card-text  fs-5">● Visa Europea Schengen</p>
-            <p class="card-text  fs-5">● Visa Americana</p>
-            <p class="card-text  fs-5">● Visa Centro América</p>
-            <p class="card-text  fs-5">● Visa Brasil</p>
-            <p class="card-text  fs-5">● Visa Canadiense</p>
-            <a href="#" class="btn btn-primary botoncard mt-5">Saber más</a>
+            <details> 
+                <summary>Visa Schengen</summary>
+                <p>La tramitación de esta visa te permitirá visitar 27 países con libre circulación
+                    de sus cuidadanos dentro de este espacio, como un solo país.</p>
+            </details>
+
+            <details>
+                <summary>Visa USA</summary>
+                <p>Te podemos ayudar a tramitar diferentes visas de acuerdo a lo que tu necesites, entre
+                    las cuales tenemos: <strong>Visa de Tránsito Americana, Visa Turismo B1/B2, Visa Tripulante,
+                        Visa Inversionista, etc.
+                    </strong></p>
+            </details>
+
+            <details>
+                <summary>Visa Americana de Turismo para Chilenos</summary>
+                <p>Visa Waiver</p>
+            </details>
+
+            <details>
+                <summary>Visa Turismo Canadiense</summary>
+                <p>Te ayudamos a postular y tramitar esta visa, la cual te permitirá visitar este bello país
+                    por un período de 3 a 6 meses legales.</p>
+            </details>
+
+            <details>
+                <summary>Visa Canadiense para Chilenos</summary>
+                <p>Visa ETA.</p>
+            </details>
+
+            <details>
+                <summary>Visa Centro America</summary>
+                <p>Al igual que la Visa Schengen, esta te permite transitar libremente por estos países:
+                    <strong>El Salvador, Guatemala, Nicaragua y Honduras.</strong></p>
+            </details>
+
+            <details>
+                <summary>Además podemos ayudarte a tramitar...</summary>
+                <p><strong>Visa Panama, Visa Belice, Visa Cuba, Visa Brasil, Visa México, Visa Nueva Zelanda,
+                    Visa Australia, Visa Corea del Sur y Visa Egipto.</strong></p>
+            </details>
+            <a href="./contacto.html" class="btn btn-primary botoncard my-5">Saber más</a>
         </div>
     </div>
     </div>
@@ -127,22 +164,121 @@
 <section id="viaje">
 <div class="container-fluid cardservice2">
     <div class="row justify-content-center">
-    <div class="card mx-5  cardservice" style="width: 35rem;">
-        <div class="card-body">
+    <div class="card  cardservice" style="width: 41rem;">
+        <div class="card-body"> 
             <h1 class="card-title text-center mb-5 animacion1"><strong>Viajes con paquete turístico</strong></h1>
-            <img src="../iconos/viaje.png" class="card-img-top animacion1" alt="..." width="100" height="400">
+           
+
+ <!--CARRUSEL-->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" ar
+              ia-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imágenes/imagen2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la primera diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imágenes/imagen01.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la segunda diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imágenes/imagen03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la tercera diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imágenes/imagen05.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la segunda diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imágenes/imagen07.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la segunda diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imágenes/imagen06.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etiqueta de la segunda diapositiva</h5>
+                  <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        
         </div>
     </div>
+    
 
     <!--VIAJES INFO-->
-    <div class="card mx-5  cardservice" style="width: 22rem;">
+    <div class="card mx-5  cardserviceinfo" style="width: 22rem;">
         <div class="card-body animacion4">
-            <h1 class="card-title text-center mb-5"><strong>Viaja cómodo y seguro con nosotros</strong></h1>
-            <p class="card-text fs-5">● Seguro de viaje</p>
-            <p class="card-text fs-5">● Venta de pasajes (Nacional e internacional)</p>
-            <p class="card-text fs-5">● Reserva de hotel</p>
-            <p class="card-text fs-5">● Transfer (Traslado al aeropuerto)</p>
-            <a href="#" class="btn btn-primary botoncard mt-5">Saber más</a>
+            <details> 
+                <summary>Paquetes turísticos</summary>
+                <p>Disfruta de los distintos paquetes turísticos que tenemos pensados para ti. 
+                    Conocece  desde la magia y el encanto de Walt Disney World hasta disfrutar de las mejores
+                    playas del mundo, tú decides.</p>
+            </details>
+
+            <details> 
+                <summary>Seguro de viaje</summary>
+                <p>Viaja seguro y cómodo con nosotros, te ofrecemos una gran cobertura que puedes revisar haciendo <a href="../imágenes/Seguro de viaje.jpg">click aquí.</a></p>
+            </details>
+
+            <details>
+                <summary>Venta de pasajes (Nacional e internacional)</summary>
+                <p>Viaja y conoce los mejores lugares del mundo a los mejores precios. Disfruta y vive la
+                    experiencia junto a nosotros.
+                    </strong></p>
+            </details>
+
+            <details>
+                <summary>Reserva de hotel</summary>
+                <p>Consigue esa estadía que siempre soñaste y la que te mereces, lo que aqui importa es que tu
+                    eliges lo que quieres con las mejores alternativas y a tu alcance.
+                </p>
+            </details>
+
+            <details>
+                <summary>Transfer (No Uber)</summary>
+                <p>Te ayudamos a conectar tu destino facilitando tus viajes. Te ofrecemos las más grandes y cómodas
+                    transfer a tu disposición en cualquier parte del mundo.
+                (Las empresas contratadas no son Uber por lo que se debe respetar los horarios sujetos a cada una de estas)</p>
+            </details>
+
+            <a href="./contacto.html" class="btn btn-primary botoncard my-5">Saber más</a>
         </div>
     </div>
     </div>
@@ -167,12 +303,35 @@
     <div class="card mx-5  cardservice colorinternoservice" style="width: 22rem;">
         <div class="card-body animacion3">
             <h1 class="card-title text-center mb-5 mt-2 mb-5 "><strong>Te ayudamos con tu</strong></h1>
-            <p class="card-text fs-5">● Permanencia definitiva</p>
-            <p class="card-text fs-5">● Reunificación familiar en Chile</p>
-            <p class="card-text fs-5">● Visa de turismo a Chile</p>
-            <p class="card-text fs-5">● Visa de permanencia temporaria y definitiva a extranjeros
-                dentro de Chile</p>
-            <a href="https://wa.me/+56935773356?text?text=Me%20gustaría%20saber%20el%20%20del%20coche" class="btn btn-primary botoncard mt-5 mb-5" class="text-reset" class="whatsapp" target="_blank">Saber más</a>
+          
+            <details> 
+                <summary>Permanencia definitiva</summary>
+                <p>Cumple con los criterios para ser un residente permanente
+                    en nuestro país, si tienes vínculo con chileno tu período de tiempo para optarla será de 2 años y 3 años para 
+                    extranjeros en general.</p>
+            </details>
+
+            <details> 
+                <summary>Visa temporal</summary>
+                <p>Permiso para residir en Chile por un plazo de hasta 1 año. También permite
+                    trabajar durante dicho período.</p>
+            </details>
+
+            <details>
+                <summary>Reunificación familiar en Chile</summary>
+                <p>Cumple con los criterios para ser un residente permanente
+                en nuestro país, si tienes vínculo con chileno tu período de tiempo para optarla será de 2 años y 3 años para 
+                extranjeros en general.
+                    </strong></p>
+            </details>
+
+            <details>
+                <summary>Visa de turismo a Chile</summary>
+                <p>Sujeta a la disponibilidad de cita consular y/o embajada.
+                    </strong></p>
+            </details>
+
+            <a href="./contacto.html" class="btn btn-primary botoncard mt-5 mb-5" class="text-reset" class="whatsapp" target="_blank">Saber más</a>
         </div>
     </div>
     </div>
@@ -199,20 +358,22 @@
     <!-- Section: Social media -->
         <section class="mb-4">
             <!-- Facebook -->
+        <a href="https://www.facebook.com">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
             </svg>
+        </a>
 
             <!-- Instagram -->
+        <a href="https://www.instagram.com/">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#54829B" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <rect x="4" y="4" width="16" height="16" rx="4" />
                 <circle cx="12" cy="12" r="3" />
                 <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
             </svg>
-
-            <div id="google_translate_element" class="google text-black mt-2">Traducir sitio web</div>
+        </a>
 
         </section>
         </div>
@@ -227,7 +388,7 @@
     </footer>
 
     <!--LINK WHATSAPP-->
-    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://api.whatsapp.com/send?text=Hola&phones=+56935773356,+56959392672" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
@@ -241,14 +402,5 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="../js/main.js"></script>
 </script>
-
-<!--Traductor Google-->
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: ',es,en,fr,ht,pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
-            }
-    </script>
-    
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
