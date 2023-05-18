@@ -35,6 +35,16 @@ body{
 
 /*NAVBAR*/
 
+.titulo{
+    font-size: 80%;
+}
+
+
+#navbarid{
+    padding-top: 3%;
+}
+
+
 .navbar{
     background-color: #DFF3E3;
     margin-bottom: 10%;
@@ -136,6 +146,10 @@ body{
     transform: scale(1.02);
 }
 /*SERVICIOS*/
+
+.servicios{
+    margin-top: 2%;
+}
 
 
 .colorservice1{
@@ -258,6 +272,9 @@ details[open] summary::before {
 
 /*CONTACTO*/
 
+.h1decontacto{
+    margin-top: 7%;
+}
 
 .contact form {
     max-width: 40rem;
@@ -458,8 +475,5 @@ hr {
 .map-responsive{
     margin-top: 5%;
 }
-
-
-/*TRADUCTOR DE GOOGLE*/
 
 

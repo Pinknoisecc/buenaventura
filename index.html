@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/059eeb8efb.js" crossorigin="anonymous"></script>
     <title>Home/Inicio</title>
+    
+    
+    <!--Traductor Google-->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script> function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: ',es,en,fr,ht,pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+        setTimeout(function() {
+            var translateContainer = document.getElementById('google_translate_element');
+            var navbarHeight = document.getElementById('navbarid').offsetHeight; // Reemplaza 'navbar' con el ID de tu barra de navegación
+    
+            if (translateContainer) {
+                translateContainer.style.marginTop = navbarHeight + 'px';
+            }
+        }, 100);
+            }
+</script>
+
+
 </head>
 <body>
 
@@ -20,9 +39,9 @@
     <!--NAVBAR-->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarr">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarid">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="./logo/Logo Redimensionado.png" alt="" width="120" height="50"><strong class="mx-2">BUENAVENTURA S.P.A</strong></a>
+                <a class="navbar-brand" href="../index.html"><img src="./logo/Logo Redimensionado.png" alt="" width="120" height="50"><strong class="mx-2 titulo">BUENAVENTURA S.P.A</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +55,7 @@
                             Servicios
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./secciones/servicios.html#servicios">Servicios</a></li>
+                            <li><a class="dropdown-item" href="./secciones/servicios.html">Servicios</a></li>
                             <li><a class="dropdown-item" href="./secciones/servicios.html#visas">Trámites de visa</a></li>
                             <li><a class="dropdown-item" href="./secciones/servicios.html#viajes">Viajes(Paquete turístico)</a></li>
                             <li><a class="dropdown-item" href="./secciones/servicios.html#chile">Chile</a></li>
@@ -252,22 +271,7 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="../js/main.js"></script>
 
-<!--Traductor Google-->
-<script type="text/javascript">
-function googleTranslateElementInit() {
-	new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: ',es,en,fr,ht,pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
-    setTimeout(function() {
-        var translateContainer = document.getElementById('google_translate_element');
-        var navbarHeight = document.getElementById('navbarr').offsetHeight; // Reemplaza 'navbar' con el ID de tu barra de navegación
 
-        if (translateContainer) {
-            translateContainer.style.marginTop = navbarHeight + 'px';
-        }
-    }, 100);
-        }
-</script>
 
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</script>
 </body>
 </html>
