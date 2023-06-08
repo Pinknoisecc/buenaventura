@@ -242,6 +242,10 @@ details[open] summary::before {
 
 /*NOSOTROS*/
 
+.h1denosotros{
+    margin-top: 15%;
+}
+
 .nosotros1{
     margin-top: 10%;
 }
