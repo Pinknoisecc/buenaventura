@@ -501,6 +501,12 @@ footer{
     }
 }
 
+@media (max-width: 340px) {
+    .galeria{
+        margin-top: 50%;
+    }
+}
+
 
 /*KEYFRAMES*/
 
