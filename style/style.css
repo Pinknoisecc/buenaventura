@@ -315,6 +315,13 @@ details[open] summary::before {
     cursor: pointer;
 }
 
+
+/*GALERIA*/
+
+.galeria{
+    margin-top: 10%;
+}
+
 /*FOOTER*/
 
 footer{
@@ -449,6 +456,48 @@ footer{
 @media (max-width: 576px) {
     .mqnos2{
         margin-top: 0%;
+    }
+}
+
+
+/*GALERIA*/
+
+@media (max-width: 1200px) {
+    .galeria{
+        margin-top: 10%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .galeria{
+        margin-top: 15%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .galeria{
+        margin-top: 17%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .galeria{
+        margin-top: 19%;
+    }
+}
+
+@media (max-width: 520px) {
+    .galeria{
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 400px) {
+    .galeria{
+        margin-top: 40%;
     }
 }
 
